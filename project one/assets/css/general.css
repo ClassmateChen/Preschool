@@ -1,0 +1,14 @@
+.w {
+    margin: auto;
+    width: 1200px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+}

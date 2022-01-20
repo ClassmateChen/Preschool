@@ -1,0 +1,42 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background: url(../images/login_bg.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.logo {
+    padding: 20px;
+}
+
+.loginBox {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 400px;
+    height: 310px;
+    background-color: #fff;
+    transform: translate(-50%, -50%);
+
+}
+
+.loginHeader {
+    height: 60px;
+    background: url(../images/login_title.png) no-repeat center;
+}
+
+.loginForm {
+    padding: 0px 25px;
+}
+.loginInput {
+    padding-left: 30px;
+    width: 100%;
+    height: 36px;
+    outline-color: #c8c8c8;
+    margin-bottom: 15px;
+}
+.loginButton {
+    width: 100%;
+    height: 36px;
+}

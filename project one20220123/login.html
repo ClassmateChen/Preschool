@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大事件-登录/注册</title>
+    <!-- 这是Bootstrap的css文件 -->
+    <link rel="stylesheet" href="./assets/library/bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <!-- css通用样式 -->
+    <link rel="stylesheet" href="./assets/css/general.css">
+    <!-- 这是大事件项目登入页面的css样式 -->
+    <link rel="stylesheet" href="./assets/css/login.css">
+</head>
+
+<body>
+    <!-- 头部logo区域 -->
+    <div class="logo w">
+        <img src="./assets/images/logo.png" alt="">
+    </div>
+    <!-- 总区域 -->
+    <div class="loginAndRegBox">
+        <!-- 标题 -->
+        <div class="loginHeader"></div>
+        <!-- 登录区域js切换 -->
+        <div class="loginBox">
+            <form action="" class="loginForm">
+                <i></i>
+                <input type="text" name="username" placeholder="请输入用户名" autocomplete="off" class="loginName">
+                <i></i>
+                <input type="password" name="password" placeholder="请输入密码" autocomplete="off" class="loginPassword">
+                <button type="submit" class="loginButton">登录</button>
+            </form>
+            <a href="javascript:;" class="link_reg">去注册账号</a>
+        </div>
+        <!-- 注册区域js切换 -->
+        <div class="regBox">
+            <form action="" class="regForm">
+                <i></i>
+                <input type="text" name="username" placeholder="请输入用户名" autocomplete="off" class="regName">
+                <i></i>
+                <input type="password" name="password" placeholder="请输入密码" autocomplete="off" class="regPassword">
+                <i></i>
+                <input type="password" name="repassword" placeholder="请再次输入密码" autocomplete="off" class="regPasswords">
+                <button type="submit" class="regButton">注册</button>
+            </form>
+            <a href="javascript:;" class="link_login">去登录</a>
+        </div>
+    </div>
+</body>
+<!-- 这是JQuery样式 -->
+<script src="./assets/library/jquery.v3.6.min.js"></script>
+<!-- 这是ajas的 -->
+<script src="./assets/js/baseAPI.js"></script>
+<!-- 这是Bootstrap的js文件 -->
+<script src="./assets/library/bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>
+<!-- 这是大事件项目登入页面的js样式 -->
+<script src="./assets/js/login.js"></script>
+
+</html>
